@@ -11,6 +11,8 @@ namespace Projet_0
         {
             
             Console.WriteLine("Allo");
+            Console.WriteLine("It's add in new branch");
+
             Console.ReadKey();
         }
     }

@@ -10,7 +10,7 @@ namespace Projet_0
         private static void Main()
         {
             
-
+            Console.WriteLine("Allo");
             Console.ReadKey();
         }
     }

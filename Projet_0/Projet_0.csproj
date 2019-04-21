@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example_Class\Example_Array_ANY-TYPE.cs" />
+    <Compile Include="Example_Class\Person_Example.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rew.cs" />
+    <Compile Include="Example_Class\Rew.cs" />
+    <Compile Include="Example_Class\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

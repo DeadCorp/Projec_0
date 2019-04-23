@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace Projet_0
 {
+    public class Enumerator
+    {
+        public bool MoveNext()
+        {
+            return false;
+        }
+
+        public object Current
+        {
+            get { return null; }
+        }
+    }
     class Example_Array_ANY_TYPE<T>
     {
         T[] ExampleArray;
@@ -14,12 +26,22 @@ namespace Projet_0
             ExampleArray = new T[0];
             
         }
+        public Enumerator GetEnumerator()
+        {
+            return new Enumerator();
+        }
 
         public void add_in_array(T item){
             T[] newExampleArray = new T[ExampleArray.Length + 1];
             Array.Copy(ExampleArray, newExampleArray, ExampleArray.Length);
             newExampleArray[ExampleArray.Length] = item;
             ExampleArray = newExampleArray;
+        }
+        public void Reverse()
+        {
+            
+            Array.Reverse(ExampleArray);
+            
         }
 
         public void delete_from_array(T item){

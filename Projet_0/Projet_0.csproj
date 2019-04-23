@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Example_Class\Example_Array_ANY-TYPE.cs" />
     <Compile Include="Example_Class\Person_Example.cs" />
+    <Compile Include="Example_Class\exchange_letter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Example_Class\Rew.cs" />

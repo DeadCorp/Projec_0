@@ -10,7 +10,7 @@ namespace Projet_0
             foreach (var VARIABLE in ExchangeFirstLetter(" раз два ")) {
                 Console.Write(VARIABLE + " ");
             }
-
+            Console.WriteLine("651I512671");
             
             
 
